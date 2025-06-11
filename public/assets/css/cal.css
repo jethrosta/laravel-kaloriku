@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+form {
+    padding: 1rem;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.form-title {
+    margin-bottom: 1rem;
+}
+
+button,
+input,
+select {
+    font-size: 1rem;
+    margin: 0 0 1.2rem;
+}
+
+label {
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    text-transform: initial;
+    font-weight: normal;
+    padding: .3rem;
+}
+
+input[type="radio"] {
+    transform: translateY(-2px);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: white;
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button {
+    border: 1px solid rgba(0,0,0,.35);
+    border-bottom-width: 3px;
+    background-color: transparent;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+button[type="reset"] {
+    background-color: #e41a23;
+    color: white;
+}
+
+button[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+}
+
+input:focus,
+select:focus {
+    border-color: #e41a23;
+}
+
+input:focus + span::before,
+select:focus + span::before {
+    content: '▶';
+    position: absolute;
+    left: -.25rem;
+    transform: translateY(-3rem);
+    color: #e41a23;
+}
+
+.radio-group:focus-within::after {
+    content: '▶';
+    position: absolute;
+    left: -.25rem;
+    transform: translateY(.25rem);
+    color: #e41a23;
+}
+
+.slider {
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 700px;
+    font-size: 50px;
+}
+.slider .slide{
+
+}
+
+#cal_result{
+    padding: 1rem;
+    max-width: 470px;
+    margin: auto;
+    position: relative;
+}

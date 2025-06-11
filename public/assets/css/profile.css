@@ -1,0 +1,52 @@
+.profile-photo{
+   justify-content: center;
+    align-items: center;
+}
+#change-image-button {
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 45%;
+    left:20%;
+    color:white;
+    font-size: 1em;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#profile-photo:hover #change-image-button {
+    display: block;
+}
+
+#profile-photo:hover #profile-src {
+    opacity: 0.5;
+}
+
+#profile-photo {
+    padding: 6px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 999999px;
+    position: relative;
+    max-width:160px;
+    max-height:160px;
+    border-color: #e2e2e2;
+    background-color:#999;
+    overflow: hidden;
+}
+
+#profile-src {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    perspective-origin: 80px 80px;
+    transform-origin: 80px 80px;
+    border: 0px none rgb(85, 85, 85);
+    border-radius: 999999px 999999px 999999px 999999px;
+    outline: rgb(85, 85, 85) none 0px;
+}
+
+body{color: #000;overflow-x: hidden;height: 100%;background-image: url("https://i.imgur.com/GMmCQHC.png");background-repeat: no-repeat;background-size: 100% 100%}.card{padding: 30px 40px;margin-top: 60px;margin-bottom: 60px;border: none !important;box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}.blue-text{color: #00BCD4}.form-control-label{margin-bottom: 0}input, textarea, button{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
