@@ -6,6 +6,8 @@ use App\View\Composers\ProfileComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\URL;
+
 
 
 class AppServiceProvider extends ServiceProvider
