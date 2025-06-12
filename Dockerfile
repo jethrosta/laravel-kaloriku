@@ -1,4 +1,4 @@
-FROM php:9.0-cli
+FROM php:8.2-cli
 
 WORKDIR /var/www
 
