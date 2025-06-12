@@ -54,7 +54,7 @@ class CalorieCalculatorController extends Controller
             // Kirim ke FastAPI
             $response = Http::attach(
                 'image', file_get_contents($imagePath), $imageName
-            )->post('http://127.0.0.1:8000/detect_food');
+            )->post('https://fastapi-production-066d.up.railway.app/detect_food');
 
             $result = $response->json();
 
