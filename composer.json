@@ -54,6 +54,10 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "postinstall": [
+            "php artisan migrate --force",
+            "php artisan db:seed --force"
         ]
     },
     "extra": {
