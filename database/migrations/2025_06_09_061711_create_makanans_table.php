@@ -13,7 +13,7 @@ class CreateMakanansTable extends Migration
      */
    public function up()
     {
-    Schema::create('makanan', function (Blueprint $table) {
+    Schema::create('makanans', function (Blueprint $table) {
         $table->id();
         $table->string('nama_makanan', 100);
         $table->integer('kalori');
